@@ -1,7 +1,29 @@
 
 /* Your CSS Code here. */
 .holder{
-	display:felx;
+	display:flex;
+	flex-direction: row;
 	justify-content:center;
-	flex-wrap:wrap;	
+	height:100px;
+	
+
+}
+.item3{
+	width:20%;
+	background-color:green;
+	padding:0px;
+	font-size:20px;
+	
+}
+.item1{
+	width:20%;
+	background-color:red;
+	padding:0px;
+	font-size:20px;
+}
+.item2{
+	width:20%;
+	background-color:blue;
+	padding:0px;
+	font-size:20px;
 }
